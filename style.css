@@ -1,0 +1,290 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Climate+Crisis&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap');
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner {
+    width: 100%;
+    height: 2500px;
+    position: relative;
+    background-color: rgb(43, 35, 35);
+}
+
+.headder {
+    background:
+        linear-gradient(to right,
+            rgb(0 0 0/ 1),
+            rgb(0 0 0 / 0)),
+        url(https://assets.architecturaldigest.in/photos/6114e358cd329430d9952536/16:9/w_1280,c_limit/This%20Amritsar%20cafe%20resembles%20an%20emerald%20dipped%20in%20gold%202.jpg);
+    width: 100%;
+    height: 650px;
+
+    /* position: relative; */
+
+
+}
+
+.logo {
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+    color: rgb(236, 230, 222);
+    margin-left: 30px;
+    margin-top: 110px;
+    position: absolute;
+
+    width: 20%;
+    height: 100px;
+
+}
+
+.navbar {
+    padding: 20px;
+    top: 40px;
+    position: absolute;
+    width: 50%;
+    height: 40px;
+    margin-left: 40%;
+    /* background-color: azure; */
+
+
+
+
+    /* background-color: rgb(14, 68, 26); */
+}
+
+.navbar ul {
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(250, 248, 243);
+    font: bold;
+    /* margin: 10px; */
+
+}
+
+nav ul li a:hover {
+    color: darkgoldenrod;
+
+}
+
+
+.head1 {
+    position: absolute;
+
+    width: 70%;
+    height: 50px;
+    color: beige;
+    margin-top: 240px;
+    margin-left: 300px;
+}
+
+button {
+    width: 300px;
+    min-height: 50px;
+    border-radius: 4px;
+    border: 0px solid white;
+    background-color: hsl(33, 40%, 44%);
+    cursor: pointer;
+}
+
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #dddee5 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+
+
+.footer {
+    position: absolute;
+
+    width: 100%;
+    height: 650px;
+    background:
+        linear-gradient(to left,
+            rgb(0 0 0/ 1),
+            rgb(0 0 0 / 0.5)),
+        url('https://img.bestrecipes.com.au/iyddCRce/br/2019/02/1980-crunchy-chicken-twisties-drumsticks-951509-1.jpg');
+
+
+
+}
+
+.container1 {
+    position: absolute;
+    width: 160px;
+    height: 190px;
+
+    margin-left: 100px;
+    margin-top: 90px;
+
+}
+
+.container2 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 300px;
+    width: 160px;
+    height: 190px;
+
+}
+
+.container3 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 300px;
+    width: 160px;
+    height: 190px;
+
+
+
+}
+
+.container4 {
+    margin-left: 300px;
+    margin-top: 300px;
+    width: 160px;
+    height: 190px;
+
+
+    position: absolute;
+}
+
+
+
+
+.content {
+    font-size: larger;
+    color: rgb(252, 255, 240);
+    margin-left: 600px;
+    margin-top: 200px;
+    width: 300px;
+    min-height: 200px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+}
+
+.ourchefs {
+    position: absolute;
+    margin-top: 650px;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(27, 31, 31);
+}
+
+.pics {
+    position: absolute;
+    width: 250px;
+    height: 340px;
+
+
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.pics1 {
+    position: absolute;
+    width: 250px;
+    height: 340px;
+
+    margin-left: 369px;
+    margin-top: 120px;
+}
+
+img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+
+
+}
+
+h1 {
+    color: darkgoldenrod;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+
+    text-shadow: 0 0 3px #000000, 0 0 5px #050505;
+
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.connect-us {
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    margin-top: 1300px;
+    background:
+        linear-gradient(to right,
+            rgb(0 0 0/ 1),
+            rgba(175, 170, 170, 0)),
+        url(https://about.gitlab.com/images/blogimages/how-to-keep-your-fork-up-to-date-with-its-origin/fork.png);
+}
